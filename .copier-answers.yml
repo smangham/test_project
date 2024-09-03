@@ -1,6 +1,30 @@
 # Changes here will be overwritten by Copier
+SelectCitation:
+- AddCitationFile_flag
+- AddCFFConvert_flag
+SelectCodeQualityFeatures:
+- AddLocalTests_flag
+- SelectGitHubActions_flag
+- AddLinting_flag
+- AddPreCommit_flag
+- AddSonarCloud_flag
+- AddEditorConfig_flag
+SelectCommunityFeatures:
+- AddCodeConduct_flag
+- AddContributing_flag
+SelectDocumentationFeatures:
+- AddLocalDocumentation_flag
+- AddOnlineDocumentation_flag
+- AddDevDoc_flag
+- AddGitHubActionDocumentation_flag
+SelectGitHubActions: []
+SelectPublishReleaseFeatures:
+- SelectCitation_flag
+- AddChangeLog_flag
+- AddZenodo_flag
 _commit: 0.6.1
 _src_path: https://github.com/nlesc/python-template.git
+code_of_conduct_email: mangham@gmail.com
 copyright_holder: University of Southampton
 email: mangham@gmail.com
 full_name: Sam Mangham
@@ -9,5 +33,5 @@ keywords: rubbish, nonsense, junk
 license: MIT
 package_name: test_project
 package_short_description: It's a test
-template_profile: minimum
+template_profile: ask
 version: 0.1.0

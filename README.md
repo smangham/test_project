@@ -7,13 +7,14 @@
 | (1/5) code repository              | [![github repo badge](https://img.shields.io/badge/github-repo-000.svg?logo=github&labelColor=gray&color=blue)](https://github.com/smangham/test_project) |
 | (2/5) license                      | [![github license badge](https://img.shields.io/github/license/smangham/test_project)](https://github.com/smangham/test_project) |
 | (3/5) community registry           | [![RSD](https://img.shields.io/badge/rsd-test_project-00a3e3.svg)](https://www.research-software.nl/software/test_project) [![workflow pypi badge](https://img.shields.io/pypi/v/test_project.svg?colorB=blue)](https://pypi.python.org/project/test_project/) |
-| (4/5) citation                     | |
+| (4/5) citation                     | [![DOI](https://zenodo.org/badge/DOI/<replace-with-created-DOI>.svg)](https://doi.org/<replace-with-created-DOI>)|
 | (5/5) checklist                    | [![workflow cii badge](https://bestpractices.coreinfrastructure.org/projects/<replace-with-created-project-identifier>/badge)](https://bestpractices.coreinfrastructure.org/projects/<replace-with-created-project-identifier>) |
 | howfairis                          | [![fair-software badge](https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8B-yellow)](https://fair-software.eu) |
 | **Other best practices**           | &nbsp; |
-| **GitHub Actions**                 | &nbsp; |
+| Static analysis                    | [![workflow scq badge](https://sonarcloud.io/api/project_badges/measure?project=smangham_test_project&metric=alert_status)](https://sonarcloud.io/dashboard?id=smangham_test_project) |
+| Coverage                           | [![workflow scc badge](https://sonarcloud.io/api/project_badges/measure?project=smangham_test_project&metric=coverage)](https://sonarcloud.io/dashboard?id=smangham_test_project) || Documentation                      | [![Documentation Status](https://readthedocs.org/projects/test_project/badge/?version=latest)](https://test_project.readthedocs.io/en/latest/?badge=latest) || **GitHub Actions**                 | &nbsp; |
 | Build                              | [![build](https://github.com/smangham/test_project/actions/workflows/build.yml/badge.svg)](https://github.com/smangham/test_project/actions/workflows/build.yml) |
-## How to use test_project
+| Citation data consistency          | [![cffconvert](https://github.com/smangham/test_project/actions/workflows/cffconvert.yml/badge.svg)](https://github.com/smangham/test_project/actions/workflows/cffconvert.yml) || SonarCloud                         | [![sonarcloud](https://github.com/smangham/test_project/actions/workflows/sonarcloud.yml/badge.svg)](https://github.com/smangham/test_project/actions/workflows/sonarcloud.yml) |## How to use test_project
 
 It's a test
 
@@ -33,7 +34,10 @@ python -m pip install .
 
 Include a link to your project's full documentation here.
 
+## Contributing
 
+If you want to contribute to the development of test_project,
+have a look at the [contribution guidelines](CONTRIBUTING.md).
 
 ## Credits
 
