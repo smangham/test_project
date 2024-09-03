@@ -1,0 +1,13 @@
+# Changes here will be overwritten by Copier
+_commit: 0.6.1
+_src_path: https://github.com/nlesc/python-template.git
+copyright_holder: University of Southampton
+email: mangham@gmail.om
+full_name: Sam Mangham
+github_organization: smangham
+keywords: rubbish, nonsense, junk
+license: MIT
+package_name: test_project
+package_short_description: It's a test
+template_profile: minimum
+version: 0.1.0
